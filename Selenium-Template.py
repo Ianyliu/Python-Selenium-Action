@@ -51,7 +51,7 @@ elem.send_keys('seleniumhq' + Keys.RETURN)
 
 print(driver.title)
 with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"This was written with a Yahoo action {driver.title}")
+    f.write(f"{driver.title} has been opened")
     
 driver.quit()
 
